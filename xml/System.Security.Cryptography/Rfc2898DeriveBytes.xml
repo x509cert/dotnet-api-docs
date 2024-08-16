@@ -1450,7 +1450,7 @@ The `password` will be converted to bytes using the UTF8 encoding. For
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- Salt, a random set of bytes, is used to make unauthorized decrypting of a message more difficult. A dictionary attack is an attack in which the attacker attempts to decrypt an encrypted message by comparing the encrypted value with previously computed encrypted values for the most likely keys. This attack is made much more difficult by the introduction of salt, or random bytes, at the end of the password before the key derivation.  
+ Salt, a unique and often random set of bytes, is used to make unauthorized decrypting of a message more difficult. A dictionary attack is an attack in which the attacker attempts to decrypt an encrypted message by comparing the encrypted value with previously computed encrypted values for the most likely keys. This attack is made much more difficult by the introduction of salt used during key derivation.  
   
  ]]></format>
         </remarks>
